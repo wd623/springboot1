@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/whlg?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: wangdan123456
+mybatis:
+  type-aliases-package: com.zr.bean
+  mapper-locations: classpath:mapper/*.xml
+
